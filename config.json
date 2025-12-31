@@ -1,5 +1,5 @@
 {
     "username": "ftc_api_username",
     "key": "ftc_api_key",
-    "base_url": "http://ftc-api.firstinspires.org"
+    "base_url": "https://ftc-events.firstinspires.org/services/API"
 }

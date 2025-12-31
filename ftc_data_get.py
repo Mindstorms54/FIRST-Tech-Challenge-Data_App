@@ -29,4 +29,7 @@ auth_tuple = (username, key)
 ### Function for getting any data from the FTC Events API
 def get_data_from_api(url):
     return requests.get(base_url + url, auth=auth_tuple)
+## Function for returning league rankings
+def get_league_rankings(season, reigonCode, leagueCode):
+    return get_data_from_api("/v2.0/{str(season)}/leagues/{reigonCode}/{leagueCode}/rankings")
 
